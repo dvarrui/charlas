@@ -1,0 +1,3 @@
+
+<%= include 'dia1.md' %>
+<%= include 'dia2.md' %>
