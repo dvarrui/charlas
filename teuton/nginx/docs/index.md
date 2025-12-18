@@ -1,4 +1,3 @@
-[<< back](../../../README.md)
 
 # Tutorial: Nginx Web Server
 
@@ -6,25 +5,7 @@ Vamos a hacer un tutorial de cómo crear un test para checkear la instalación d
 
 Esquema de clase:
 
-```mermaid
-graph TD
-    %% Definición de los nodos
-    P["profesor(teuton)"]
-    R(( Network ))
-    A1["alumno1(ssh)"]
-    A2["alumno2(ssh)"]
-    An["alumnoN(ssh)"]
-
-    %% Conexiones
-    P --- R
-    R --- A1
-    R --- A2
-    R --- An
-
-    %% Estilos (Opcional)
-    style P fill:#aaffaa,stroke:#006400,stroke-width:2px,color:#000
-    style R fill:#fff,stroke:#333,stroke-dasharray: 5 5
-```
+![](images/esquema.png)
 
 ## 1. Consultamos a la IA generativa
 
@@ -468,7 +449,7 @@ Use Ctrl-C to stop
 * Cada alumno, desde su MV, abre el navegador con URL `http://TEACHER_IP:8080`
 * Cada alumno, rellena el formulario web con sus datos:
 
-![](form.png)
+![](images/form.png)
 
 * Cuando todos los alumnos envían sus datos, el profesor pulsa CTRL+C para cerrar el servicio de configuración remota. Vemos que se nos ha creado un subdirectorio dentro de nuestro test (`config.d`) donde se han ido guardando los ficheros con la configuración enviada por cada alumno. Cada envío remoto queda registrado con la IP desde donde se realizó.
 
