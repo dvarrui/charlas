@@ -209,7 +209,7 @@ cases:
 * Ahora vamos a ejecutar el test `teuton run PATH/TO/FOLDER`.
 
 ```
-$ teuton run nginx/v02 
+$ teuton run nginx/v02.remote 
 ------------------------------------
 Started at 2025-12-05 23:10:38 +0000
 FF
@@ -230,6 +230,7 @@ Como profesores, mientras estamos diseñando el test, es muy útil tener una MV 
 * Ampliamos el fichero de configuración con 2 cases:
 
 ```yaml
+# File: v02.remote/config.yaml
 ---
 global:
 cases:
@@ -250,8 +251,9 @@ cases:
 > * Estoy usando el hipervisor KVM para crear las MV dentro de máquina real, pero se pueden usar otros como VirtualBox, Qemu, Parallel, Hyper-V, incluso contenedores con SSH en ejecución, máquinas reales, Raspberry PI, etc.
 
 * Ejecutamos el test. De momento todas las notas están a 0 porque los alumnos todavía no han realizado la práctica:
+
 ```
-$ teuton run nginx/v02 
+$ teuton run nginx/v02.remote
 ------------------------------------
 Started at 2025-12-06 16:25:10 +0000
 FFFF
@@ -273,6 +275,7 @@ Ahora sólo tenemos dos alumnos (cases) en el fichero de configuración, pero sa
 Para no repetirnos (_DRY: Don't repeat Yourself_) usamos la sección `global` de la siguiente forma:
 
 ```yaml
+# File: v02.remote/config.yaml
 ---
 global:
   webserver_username: user
@@ -295,7 +298,7 @@ Por motivos didácticos, me voy a convertir en el alumno2 y voy a ir haciendo la
 * Ejecutamos los tests para ver el cambio:
 
 ```
-$ teuton run nginx/v02 
+$ teuton run nginx/v02.remote
 ------------------------------------
 Started at 2025-12-06 16:41:11 +0000
 F.FF
@@ -340,7 +343,7 @@ Es muy posible que no gusten los valores actuales de los pesos (`weight`), es no
 ```
 
 ```
-$ teuton run nginx/v02
+$ teuton run nginx/v02.remote
 ------------------------------------
 Started at 2025-12-06 16:53:14 +0000
 .FFF
@@ -363,7 +366,7 @@ Seguimos haciendo la práctica en la MV del alumno2.
 * Ahora toca resolver el segundo target: "Comprobar que index.html contiene el texto 'Hola Mundo!'".
 * Ejecutamos el test:
 ```
-$ teuton run nginx/v02
+$ teuton run nginx/v02.remote
 ------------------------------------
 Started at 2025-12-06 16:59:08 +0000
 .F.F
@@ -389,6 +392,7 @@ De modo que vamos a añadir un poco de personalización a las máquinas. Los alu
 * Modificamos el fichero de configuración para que los usuarios/passwords de cada MV sean diferentes:
 
 ```yaml
+# File: v03.custom/config.yaml
 ---
 global:
 cases:
@@ -482,6 +486,7 @@ nginx/v04.final
 * Además, en el fichero de configuración principal, se crea el parámetro `tt_include: config.d` para indicaar que además del contenido de `config.yaml` debemos incluir como parte de la configuración todos los ficheros del subdirectorio `config.d`.
 
 ```yaml
+# File: v04.final/config.yaml
 ---
 global:
   tt_include: config.d
@@ -514,6 +519,7 @@ Ejecutamos el test:
 ## ANEXO: Problemas de conexión
 
 Si al ejecutar el test nos encontramos con la siguiente salida:
+
 ```
 $ teuton run nginx/v03.custom   
 ------------------------------------
