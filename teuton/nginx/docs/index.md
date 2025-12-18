@@ -209,6 +209,7 @@ cases:
 * Ahora vamos a ejecutar el test `teuton run PATH/TO/FOLDER`.
 
 ```
+$ teuton run nginx/v02 
 ------------------------------------
 Started at 2025-12-05 23:10:38 +0000
 FF
