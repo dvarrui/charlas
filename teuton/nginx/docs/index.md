@@ -101,6 +101,7 @@ end
 ```
 
 > **NOTA**: Mientras estamos haciendo cambios en el test podemos usar los siguientes comandos para comprobar que todo va funcionando correctamente.
+>
 > * `teuton readme PATH/TO/FOLDER` para ver cómo se genera el enunciado asociado a la práctica.
 > * `teutob check PATH/TO/FOLDER` para comprobar que no hay fallos en la sintaxis, etc.
 
