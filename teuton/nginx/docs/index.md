@@ -9,8 +9,8 @@ Esquema de clase:
 
 > Enlaces de interés:
 >
-> * URL tutorial: https://github.com/dvarrui/charlas/blob/main/teuton/nginx/docs/index.md
-> * URL Teuton: https://github.com/teuton-software/teuton
+> * URL tutorial: [https://github.com/dvarrui/charlas/blob/main/teuton/nginx/docs/index.md](https://github.com/dvarrui/charlas/blob/main/teuton/nginx/docs/index.md)
+> * URL Teuton: [https://github.com/teuton-software/teuton](https://github.com/teuton-software/teuton)
 
 ## 1. Consultamos a la IA generativa
 
