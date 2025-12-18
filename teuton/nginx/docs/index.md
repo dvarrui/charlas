@@ -118,7 +118,7 @@ graph TD
         C["cases: a quien queremos evaluar"]
     end
 
-    subgraph Archivo2 ["💎 start.rb (test de teuton)"]
+    subgraph Archivo2 ["💎 start.rb (test)"]
         T["targets: lo que queremos avaluar"]
     end
 
