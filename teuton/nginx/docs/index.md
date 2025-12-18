@@ -414,8 +414,6 @@ La instrucción `expect` debe evaluar la presencia de un determinado contenido (
 
 > **SUGERENCIA**: Cuanta mayor personalización añadamos a nuestros tests, más complicado (pero no imposible) les será a los alumnnos "copiar" el trabajo de otros mediante el clonado de MV.
 
-_El test está listo para llevarlo al aula, ahora nos falta completar el fichero de configuración con datos reales de nuestros alumnos._
-
 ## 10. Vamos a añadir un nuevo target
 
 Actualmente estamos evaluando los siguientes objetivos (targets):
@@ -439,6 +437,8 @@ group "Comprobar Nginx desde el exterior" do
   expect "Hola #{get(:tt_members)}!"
 end
 ```
+
+_El test está listo para llevarlo al aula, ahora nos falta completar el fichero de configuración con datos reales de nuestros alumnos._
 
 Podemos ver el fichero [v03.custom](https://github.com/dvarrui/charlas/tree/main/teuton/nginx/docs/v03.custom).
 
