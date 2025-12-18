@@ -344,7 +344,8 @@ CASE RESULTS
 
 ## 8. Continuamos con la práctica
 
-Seguimos haciendo la práctica en la MV del alumno2. 
+Seguimos haciendo la práctica en la MV del alumno2.
+
 * Ahora toca resolver el segundo target: "Comprobar que index.html contiene el texto 'Hola Mundo!'".
 * Ejecutamos el test:
 ```
@@ -411,6 +412,7 @@ _El test está listo para llevarlo al aula, ahora nos falta completar el fichero
 Para nuestra simulación, mientras diseñábamos el test, creamos la configuración para 2 alumnos ficticios. Pero cuando querramos ejecutar el test en el aula hay que añadir las configuraciones de todos los alumnos.
 
 Tenemos varias formas de hacerlo, según el estilo de cada docente:
+
 * **Lo decide el profesor manualmente**: Una posibilidad es que pongamos la configuración de cada alumno según el criterio del profesor y los alumnos deben adaptar sus MV (IP, username, password) seǵun lo que haya determinado el profesor.
 * **Lo decide el alumno y el profesor lo actualiza manualmente**: Otra opción es que cada alumno le indique al profesor los valores de configuración para que el profesor actualice el fichero de configuración manualmente. Esto es un poco "pesado" si hay muchos alumnos. Una posibilidad es que los alumnos envíen al profesor un YAML con su configuración, profesor los guarda en la carpeta `config.d` y mediante el parámetro `tt_include: config.d`, todos los ficheros en la carpeta se incluirán como parte de la configuración del test.
 * **Lo comunica el alumno en remoteo y se actualiza automáticamente**: Una tercera opción es que el profesor utilice el servicio `teuton config --server PATH/TO/FOLDER`, y de esta forma cada alumno proporciona los valores de su configuración, los cuales se irán guardando automáticamente.
@@ -490,6 +492,7 @@ _¡Ya tenemos el test y las configuraciones listas para trabajar en el aula!_
 Ya, tenemos listo el test y el fichero de configuración. Nos lo llevamos al aula para usarlo en producción.
 
 Ejecutamos el test:
+
 * **Al comienzo de la sesión**: Ejecutamos el test simplemente para validar que hay conectividad con todas las MV de los alumnos aunque en este momento todas las notas estén a 0.
 * **Durante la sesión**: De forma opcional, podemos ir ejecutando el test para ir monitorizando cómo van avanzando los alumnos.
 * **Al final de la sesión**: Al finalizar la sesión ejecutamos el test por última vez para quedarnos con el resultado final.
