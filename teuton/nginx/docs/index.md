@@ -417,6 +417,7 @@ _El test está listo para llevarlo al aula, ahora nos falta completar el fichero
 ## 10. Vamos a añadir un nuevo target
 
 Actualmente estamos evaluando los siguientes objetivos (targets):
+
 * target 1: "Comprobar el estado del servicio Nginx"
 * target 2: "Comprobar que index.html contiene el texto 'Hola Mundo!'"
 
@@ -439,7 +440,7 @@ end
 
 Podemos ver los ficheros del test en [v03.custom](v03.custom/).
 
-## 10. Completar la configuración con datos reales
+## 11. Completar la configuración con datos reales
 
 Para nuestra simulación, mientras diseñábamos el test, creamos la configuración para 2 alumnos ficticios. Pero cuando querramos ejecutar el test en el aula hay que añadir las configuraciones de todos los alumnos.
 
@@ -451,7 +452,7 @@ Tenemos varias formas de hacerlo, según el estilo de cada docente:
 
 Veamos en detalle esta última opción.
 
-## 11. FUNCION EXPERIMENTAL: Servidor de configuración
+## 12. FUNCION EXPERIMENTAL: Servidor de configuración
 
 * El profesor inicia el servidor de configuración:
 
@@ -519,7 +520,7 @@ cases:
 
 _¡Ya tenemos el test y las configuraciones listas para trabajar en el aula!_
 
-## 12. Sesión de trabajo en el aula
+## 13. Sesión de trabajo en el aula
 
 Ya, tenemos listo el test y el fichero de configuración. Nos lo llevamos al aula para usarlo en producción.
 
