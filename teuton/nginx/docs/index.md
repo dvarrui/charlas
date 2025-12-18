@@ -112,6 +112,20 @@ end
 
 ## 3. Añadimos un fichero de configuración
 
+```
+graph TD
+    subgraph Archivo1 ["📄 config.yaml"]
+        C["cases"]
+    end
+
+    subgraph Archivo2 ["💎 start.rb (test de teuton)"]
+        T["targets"]
+    end
+
+    %% Relación opcional: el test suele leer la configuración
+    Archivo2 -.-> Archivo1
+```
+
 * Para tener mayor legibilidad en el futuro, el primer refinamiento que vamos a realizar es separar los tests específicos de Nginx de las instrucciones del script principal. 
     1. `start.rb`: Script principal
     2. `nginx.rb`: Tests específicos de Nginx
