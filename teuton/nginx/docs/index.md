@@ -112,7 +112,7 @@ end
 
 ## 3. Añadimos un fichero de configuración
 
-```
+```mermaid
 graph TD
     subgraph Archivo1 ["📄 config.yaml"]
         C["cases"]
