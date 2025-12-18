@@ -7,6 +7,11 @@ Esquema de clase:
 
 ![](images/esquema.png)
 
+> Enlaces de interés:
+>
+> * URL tutorial: https://github.com/dvarrui/charlas/blob/main/teuton/nginx/docs/index.md
+> * URL Teuton: https://github.com/teuton-software/teuton
+
 ## 1. Consultamos a la IA generativa
 
 _¿Cómo no? En estos tiempos todo el mundo está hablando de la IA generativa. Así que vamos a usarla para que nos ayude con el test de Teuton? ;-)_
