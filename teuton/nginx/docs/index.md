@@ -115,11 +115,11 @@ end
 ```mermaid
 graph TD
     subgraph Archivo1 ["📄 config.yaml"]
-        C["cases"]
+        C["cases: a quien queremos evaluar"]
     end
 
     subgraph Archivo2 ["💎 start.rb (test de teuton)"]
-        T["targets"]
+        T["targets: lo que queremos avaluar"]
     end
 
     %% Relación opcional: el test suele leer la configuración
