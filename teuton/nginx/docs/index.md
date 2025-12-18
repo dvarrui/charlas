@@ -19,6 +19,8 @@ _¿Cómo no? En estos tiempos todo el mundo está hablando de la IA generativa. 
 * Abro Gemini y le pongo el siguiente prompt:
 
 ```
+PROMPT PARA LA IA:
+
 Usando la siguiente plantilla de ejemplo de la herramienta Teuton:
 
  group "Learn about targets" do
