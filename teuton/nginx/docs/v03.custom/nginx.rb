@@ -19,7 +19,6 @@ group "Comprobar Nginx desde el exterior" do
   readme "* El cortafuegos debe permitir el acceso al puerto 80\n"
 
   target "Comprobar que index.html contiene el texto 'Hola NOMBREALUMNO!'"
-  readme "Se asume que Nginx está instalado en su ruta por defecto."
-  run "cat /var/www/html/index.html", on: :webserver
+  run "curl http://#{get(:webserver_ip)}"
   expect "Hola #{get(:tt_members)}!"
 end
