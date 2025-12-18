@@ -119,7 +119,7 @@ graph TD
     end
 
     subgraph Archivo2 ["💎 start.rb (test)"]
-        T["targets: lo que queremos avaluar"]
+        T["targets: lo que queremos evaluar"]
     end
 
     %% Relación opcional: el test suele leer la configuración
