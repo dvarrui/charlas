@@ -414,6 +414,31 @@ La instrucción `expect` debe evaluar la presencia de un determinado contenido (
 
 _El test está listo para llevarlo al aula, ahora nos falta completar el fichero de configuración con datos reales de nuestros alumnos._
 
+## 10. Vamos a añadir un nuevo target
+
+Actualmente estamos evaluando los siguientes objetivos (targets):
+* target 1: "Comprobar el estado del servicio Nginx"
+* target 2: "Comprobar que index.html contiene el texto 'Hola Mundo!'"
+
+Para ello, ejecutamos instrucciones como `run "CMD", on: :webserver`. Esto es, abrimos una conexión SSH al equipo remoto, y dentro del equipo remoto ejecutamos el comando para evaluar el objetivo (target). Eso está bien, pero mientras estamos con la práctica, nos dado cuenta que también necesitamos evaluar el funcionamiento del servidor Nginx accediendo a la página web desde fuera de la máquina del alumno.
+
+Esto es, puede ser que el alumno tenga el servicio Nginx funcionando es su máquina (target 1 ok), que además tenga la página web correctamente personalizada (target 2 ok), pero podría darse el caso de tener el cortafuegos bloqueando los accesos desde el exterior, o que el servidor web estuviera funcionando en otro puerto diferente del 80 o 443... entonces debemos añadir otro objetivo (target 3) para evaluar el funcionamiento del servidor web desde fuera de la máquina del alumno.
+
+Añadimos estas líneas en el fichero `nginx.rb`:
+
+```ruby
+group "Comprobar Nginx desde el exterior" do 
+  readme "El servicio web Nginx debe estar accesible desde el exterior."
+  readme "Comprobar el puerto y la configuración del cortafuegos."
+
+  target "Comprobar que index.html contiene el texto 'Hola NOMBREALUMNO!'"
+  run "curl http://#{get(:webserver_ip)}"
+  expect "Hola #{get(:tt_members)}!"
+end
+```
+
+Podemos ver los ficheros del test en [v03.custom](v03.custom/).
+
 ## 10. Completar la configuración con datos reales
 
 Para nuestra simulación, mientras diseñábamos el test, creamos la configuración para 2 alumnos ficticios. Pero cuando querramos ejecutar el test en el aula hay que añadir las configuraciones de todos los alumnos.

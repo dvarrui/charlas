@@ -14,9 +14,8 @@ group "Comprobar el servicio web Nginx" do
 end
 
 group "Comprobar Nginx desde el exterior" do 
-  readme "* El servicio web Nginx debe estar accesible desde el exterior\n"
-  readme "* El servicio debe estar escuchando en el puerto 80\n"
-  readme "* El cortafuegos debe permitir el acceso al puerto 80\n"
+  readme "El servicio web Nginx debe estar accesible desde el exterior."
+  readme "Comprobar el puerto y la configuración del cortafuegos."
 
   target "Comprobar que index.html contiene el texto 'Hola NOMBREALUMNO!'"
   run "curl http://#{get(:webserver_ip)}"
