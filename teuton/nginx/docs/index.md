@@ -438,7 +438,7 @@ group "Comprobar Nginx desde el exterior" do
 end
 ```
 
-Podemos ver el fichero [v03.custom/nginx.rb](v03.custom/nginx.rb).
+Podemos ver el fichero [v03.custom](https://github.com/dvarrui/charlas/tree/main/teuton/nginx/docs/v03.custom).
 
 ## 11. Completar la configuración con datos reales
 
