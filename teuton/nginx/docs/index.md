@@ -114,7 +114,7 @@ end
 
 ```mermaid
 graph TD
-    subgraph Archivo1 ["📄 config.yaml"]
+    subgraph Archivo1 ["📄 config.yaml (fichero de configuración)"]
         C["cases: a quien queremos evaluar"]
     end
 
