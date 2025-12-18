@@ -1,3 +1,4 @@
+# File: v02.remote/config.yaml
 ---
 global:
   webserver_username: user
