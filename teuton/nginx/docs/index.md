@@ -5,6 +5,7 @@
 Vamos a hacer un tutorial de cómo crear un test para checkear la instalación de un servidor web Nginx.
 
 Esquema de clase:
+
 ```mermaid
 graph TD
     %% Definición de los nodos
@@ -30,6 +31,7 @@ graph TD
 _¿Cómo no? En estos tiempos todo el mundo está hablando de la IA generativa. Así que vamos a usarla para que nos ayude con el test de Teuton? ;-)_
 
 * Abro Gemini y le pongo el siguiente prompt:
+
 ```
 Usando la siguiente plantilla de ejemplo de la herramienta Teuton:
 
@@ -53,6 +55,7 @@ y que la página principal index.html tiene en su contenido el texto "Hola Mundo
 ```
 
 * La respuesta de Gemini es un buen inicio:
+
 ```ruby
 group "Nginx Web Service Checks" do
 
@@ -89,6 +92,7 @@ end
 ## 2. Refinamos manualmente
 
 Vamos a realizar algunos cambios manualmente:
+
 * Vamos a poner los textos en español.
 * Los textos de los comentarios que contengan información útil para el alumno, nos puede interesar incluirlos en el enunciado de la práctica. Para ello usamos la instrucción `readme`.
 * El resto de los comentarios, me parecen evidentes, los elimino.
