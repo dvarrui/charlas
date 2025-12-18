@@ -467,7 +467,7 @@ nginx/v04.final
 └── start.rb
 ```
 
-* Además, en el fichero de configuración principal, se crea el parámetro `tt_include: config.d` para indicaar que además del contenido de `config.yaml` debemos incluir como parte de la configuración todos los ficheros del subdirectorio `config.d`.
+* Además, en el fichero de configuración principal, se crea el parámetro `tt_include: config.d` para indicar que además del contenido de `config.yaml` debemos incluir como parte de la configuración todos los ficheros del subdirectorio `config.d`.
 
 ```yaml
 # File: v04.final/config.yaml
