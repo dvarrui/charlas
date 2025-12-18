@@ -493,9 +493,11 @@ Ya, tenemos listo el test y el fichero de configuración. Nos lo llevamos al aul
 
 Ejecutamos el test:
 
-* **Al comienzo de la sesión**: Ejecutamos el test simplemente para validar que hay conectividad con todas las MV de los alumnos aunque en este momento todas las notas estén a 0.
-* **Durante la sesión**: De forma opcional, podemos ir ejecutando el test para ir monitorizando cómo van avanzando los alumnos.
-* **Al final de la sesión**: Al finalizar la sesión ejecutamos el test por última vez para quedarnos con el resultado final.
+| Cuando | Objetivo |
+| ------ | -------- |
+| **Al comienzo de la sesión** | Ejecutamos el test simplemente para validar que hay conectividad con todas las MV de los alumnos aunque en este momento todas las notas estén a 0 |
+| **Durante la sesión** | De forma opcional, podemos ir ejecutando el test para ir monitorizando cómo van avanzando los alumnos |
+| **Al final de la sesión** | Al finalizar la sesión ejecutamos el test por última vez para quedarnos con el resultado final |
 
 > Cada vez que se ejecuta el test y se guardan los resultados en `var/TESNAME/case-*.txt`, se sobreescriben los ficheros de ejecuciones anteriores.
 
