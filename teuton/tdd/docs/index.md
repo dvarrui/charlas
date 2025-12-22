@@ -28,14 +28,17 @@ Problema a resolver:
 * Filosofía devops automatizar las tareas repetitivas
 * Gamificacion el reto es la práctica,  la escena de juego la máquina del alumno.
 
-# 5 El camino: No hay app,  ruby, software libre. Ruby one Man project.
+## 5 El camino
+
+* No existe app adecuada
+* Ruby one Man project.
+* Software libre. 
 
 ![](images/02-el-camino.png)
 
-Historia:
-* 2016: Vesión 0.16.0
-* 2026: Versión 3.0.0 (10 años de desarrollo)
-
+* Historia:
+    * 2016: Vesión 0.16.0
+    * 2026: Versión 3.0.0 (10 años de desarrollo)
 * Rubygems: https://rubygems.org/gems/teuton
 * Github: https://github.com/teuton-software/teuton
 
