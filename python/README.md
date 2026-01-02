@@ -1,11 +1,11 @@
 
-```
-Charla: "La esencia de Python"
-```
-
-# Título
+# "La esencia de Python"
 
 # Presentación
+
+# Filosofía informática
+
+![](images/filosofia-informatica.png)
 
 # Definición
 
@@ -206,3 +206,8 @@ Total de tokens - tipo - delimitadores = 20
 
 Interacción humano-máquina.
 
+# npython
+
+No es "New python"
+
+Es "No python"
