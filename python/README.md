@@ -117,7 +117,9 @@ long long factorial(int n) {
 | Delimitadores   | (x3, )x3, ;(x2), {(x2), )(x2) | 12       |
 
 Total de tokens = 34
+
 Total de tokens - tipo = 31
+
 Total de tokens - tipo - delimitadores = 19
 
 # Tokens programa Python (v1)
