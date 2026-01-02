@@ -51,7 +51,7 @@ Las características:
 * "La legibilidad es importante."
 * "Debería haber una, y preferiblemente solo una, manera obvia de hacerlo."
 
-# Los delimitadores en C
+# Los bloques en C: delimitadores
 
 ```c
 long long factorial(int n) {
