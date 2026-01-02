@@ -139,12 +139,14 @@ def factorial(n):
 | Delimitadores   | :(x2), (x2, )x2                 | 6        |
 
 Total de tokens = 26
+
 Total de tokens - tipo = 26
+
 Total de tokens - tipo - delimitadores = 20
 
 # Tokens programa Python (v2)
 
-Los tabuladores/espacios funcionan como tokens cuando tienen un significado o función diferente a la separador. Esto es, marcar/definir los bloques.
+> Los tabuladores/espacios (La esencia) realmente funcionan como tokens porque tienen el cometido de marcar los bloques.
 
 ```python
 def factorial(n):
@@ -163,7 +165,9 @@ def factorial(n):
 | Delimitadores   | :(x2), (x2, )x2, sangrado(x3)   | 9        |
 
 Total de tokens = 29
+
 Total de tokens - tipo = 29
+
 Total de tokens - tipo - delimitadores = 20
 
 # Ejemplo "New Python"
@@ -190,7 +194,9 @@ end
 | Delimitadores   | end(x2), (x2, )x2               | 6        |
 
 Total de tokens = 26
+
 Total de tokens - tipo = 26
+
 Total de tokens - tipo - delimitadores = 20
 
 # Resumen
