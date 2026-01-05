@@ -1,11 +1,17 @@
 
 require_relative "import"
 require_relative "booleans"
+require_relative "copyright"
+require_relative "credits"
 require_relative "none"
 require_relative "hashes"
+require_relative "license"
 require_relative "ranges"
 require_relative "strings"
 require_relative "type"
+require_relative "version"
+
+VERSION="npython (0.16.0)"
 
 def print(*args)
   if args.is_a? Array
@@ -14,3 +20,4 @@ def print(*args)
     puts(args)
   end
 end
+

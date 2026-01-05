@@ -2,11 +2,15 @@
 
 if ARGV.size.zero?
   # Open irb
-  puts "NPython 0.1.0 (main, Feb 21 2023, 11:27:06) [GCC] on linux"
-  puts 'Type "help", "copyright", "credits" or "license" for more information.'
-  system("irb --prompt simple --nocolorize --noecho-on-assignment -Ilib -rrython")
+  text = <<~TEXT
+  nPython 0.16.0 (main, Nov 16 2025, 18:38:03) [GCC] on linux
+  Type "help", "copyright", "credits" or "license" for more information.
+  TEXT
+  puts text
+
+  system("irb --prompt simple --nocolorize --noecho-on-assignment -Ilib -rnpython")
 else
-  require_relative "lib/rython"
+  require_relative "lib/nython"
   content = File.read(ARGV.first)
   eval(content)
 end
