@@ -1,64 +1,42 @@
 
 # Teuton: TDD infraestuctura (II)
 
-![](images/00-titulo.png)
-
 ## 1. Presentación 
-
-![](images/01-presentacion.png)
 
 ## 2. Agradecimientos
 
-![](images/02-agradecer.png)
+## 3. Agenda
 
-![](images/02-el-camino.png)
+1. Terminar parte anterior
+2. DSL
+3. Características Ruby para DSL
 
-## 3. Programame
+## 3. Recordar sesión pasada
 
-Concurso de programación basado en tests. Es como un juego. 
+## 4. Teuton: test + config
 
-![](images/03-programame.png)
+## 5. Test DSL
 
-## 4. El problema
+* Definir DSL
 
-Problema a resolver:
+## 6. Case vs Device
 
-* Ayudar al profesor
-* Corrección automática en remoto para sistemas
-* Filosofía devops automatizar las tareas repetitivas
-* Gamificacion el reto es la práctica,  la escena de juego la máquina del alumno.
+## 7. Modos de uso
 
-## 5 El camino
+* Classroom
+* Standalone
+* Conquest
+* Monitor
 
-* No existe app adecuada
-* Ruby one Man project.
-* Software libre. 
+## 8. Ejemplo real: monitor
 
-![](images/02-el-camino.png)
+## 9. Programa C
 
-* Historia:
-    * 2016: Vesión 0.16.0
-    * 2026: Versión 3.0.0 (10 años de desarrollo)
-* Rubygems: https://rubygems.org/gems/teuton
-* Github: https://github.com/teuton-software/teuton
+* Características de Ruby
+* Características de C
+* Ejemplos
 
-## 6. Contexto
+## 10. taller
 
-Red de equipos ssh, teuton el profe.
+## 11. 
 
-## 7. test + config + ssh
-
-## 8. Ruby dsl para tests
-
-TDD: el profesor define el tests y lis alumnos deben hacer las acciones necesarias para pasar los tests. Es como un juego.
-
-## 9. combinar prompt de ia para crear los tests 
-
-## 10. Otros modos de uso.
-
-- Otros modos de uso
-
-## 12 Muchas gracias
-
-Datos de contacto
-Preguntas
