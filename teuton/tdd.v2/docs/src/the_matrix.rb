@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 require "pastel"
 
-
 # trap("SIGINT") do
 #  clear_screen.call
 #
@@ -12,7 +11,7 @@ require "pastel"
 class Matrix
   def initialize(text)
     @pastel = Pastel.new
-    @eligible_chars = 'TDD test de infraestructura Teuton'.chars + ['.', ' ', '@']
+    @eligible_chars = "ª\|@·#$~%&/\¿¸^*¨;•:·_-+'.,".chars + ['.', ' ']
     @width = `stty size`.scan(/\d+/)[1].to_i # terminal width
   end
 
