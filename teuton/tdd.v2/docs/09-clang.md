@@ -1,11 +1,13 @@
 
 ## 9. Lenguaje C
 
-* Características de Ruby
+* Ruby
+    - Interpretado
+    - Tipado dinámico
+    - Alto nivel
 * Características de C
+    - Compilado
+    - Tipado estático
+    - Bajo nivel
 * Ejemplos
-
-## 10. taller
-
-## 11. 
 
