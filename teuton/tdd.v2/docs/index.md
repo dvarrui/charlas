@@ -1,7 +1,7 @@
 
-# TDD infraestuctura: Teuton (II)
+# Teuton: Test de infraestructura (II)
 
-Continuación de la charla `Test de infraestructura (I)`.
+> Continuación de la charla `Test de infraestructura (I)`.
 
 1. [Presentación](./01-presentar.md)
 2. [Agradecimientos](./02-agradecer.md)
