@@ -12,7 +12,9 @@
 7. [Modos de uso](./07-usos.md)
 8. [Ejemplo real: monitor](./08-monitor.md)
 9. [Lenguaje C](./09-clang.md)
-10. [Taller](./10-taller.md)
-11. [Resumen](./11-resumen.md)
-12. [Cierre](./12-cierre.md)
+10. [Ruby](./10-ruby.md)
+11. [Jugando](./11-jugando.md)
 
+```
+Thanks a lot!
+```

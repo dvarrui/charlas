@@ -9,5 +9,4 @@
     - Compilado
     - Tipado estático
     - Bajo nivel
-* Ejemplos
-
+* Ejemplos...
