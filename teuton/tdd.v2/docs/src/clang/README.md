@@ -1,4 +1,3 @@
-[<< back](../README.md)
 
 # DSL - lenguaje C
 
