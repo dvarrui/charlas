@@ -44,3 +44,11 @@ False
 >>> 
 
 --
+
+# ANEXO
+
+Mostrar todas las fuentes de `figlet`.
+
+```
+for i in $(ls /usr/share/figlet/*.flf); do echo "Fuente: $i"; figlet -f $(basename $i .flf) "hola"; done
+```

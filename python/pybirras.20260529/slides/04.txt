@@ -1,0 +1,11 @@
+__             _                           _ 
+\ \  __      _| |__   ___   __ _ _ __ ___ (_)
+ \ \ \ \ /\ / / '_ \ / _ \ / _` | '_ ` _ \| |
+ / /  \ V  V /| | | | (_) | (_| | | | | | | |
+/_/    \_/\_/ |_| |_|\___/ \__,_|_| |_| |_|_|
+                                             
+David Vargas
+
+- Ruby, OpenSUSE, Software Libre y STARWARS
+- Interés por la "Arqueología" de los lenguajes
+- Trabajo actual -> Python
