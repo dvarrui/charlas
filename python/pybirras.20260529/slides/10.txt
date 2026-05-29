@@ -5,9 +5,11 @@
 | |__| | | | (_| | (__| | (_| \__ \
  \_____|_|  \__,_|\___|_|\__,_|___/
                                    
-                                   
-Telegram  : @dvarrui
-Email     : dvarrui@proton.me
-GitHub    : dvarrui/dsl-python
-Gema Ruby : dvarrui/diamante
-Charla    : github.com/dvarrui/charlas/python/pybirras.20260529
+
+Telegram : @dvarrui
+Email    : dvarrui@proton.me
+
+GitHub   : dvarrui/dsl-python            RubyGems : dsl-python
+GitHub   : dvarrui/diamante              RubyGems :   diamante
+
+Charla   : github.com/dvarrui/charlas/python/pybirras.20260529
