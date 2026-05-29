@@ -3,7 +3,7 @@
 
 * **REPL (Read-Eval-Print Loop)**: python vs npython
 
-````
+```
 $ python3 -V vs  npyton -V
 
 > name = "obiwan"
@@ -42,7 +42,7 @@ True
 >>> words is ['obiwan', 'kenobi']
 False
 >>> 
-
+```
 --
 
 # ANEXO
@@ -52,3 +52,7 @@ Mostrar todas las fuentes de `figlet`.
 ```
 for i in $(ls /usr/share/figlet/*.flf); do echo "Fuente: $i"; figlet -f $(basename $i .flf) "hola"; done
 ```
+
+* Instalar Ruby y la gema `diamante`.
+* Descargar este repo.
+* `diamante config.yaml` para iniciar la presentación.
