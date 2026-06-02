@@ -48,6 +48,9 @@ pasar audio
     - Evaluar/medir el proceso: fácil para feedback. Complicado y más costoso de medir.
     - Problema: falta de tiempo, ratio alta o exceso de contenidos
 
+* [Sandra Ziegler: “La confianza es algo bastante escaso en el sistema educativo. Hay una tradición de evaluación en términos de control y sanción”](https://www.infobae.com/educacion/2026/05/15/sandra-ziegler-la-confianza-es-algo-bastante-escaso-en-el-sistema-educativo-hay-una-tradicion-de-evaluacion-en-terminos-de-control-y-sancion/?outputType=amp-type)
+
+
 ## Problemas
 
 * Problema: falta de tiempo, exceso de ratios y/o contenidos...
@@ -59,11 +62,14 @@ pasar audio
 
 ## COMO
 
-````
+```
 ¿Podemos cumplir nuestros objetivos?
 ¿Eludir los problemas?
 ¿y no morir en el intento?
 ```
+
+* [El espejismo de los detectores de inteligencia artificial: por qué no son útiles ni justos](https://theconversation.com/el-espejismo-de-los-detectores-de-inteligencia-artificial-por-que-no-son-utiles-ni-justos-281246)
+
 
 Ideas
 
