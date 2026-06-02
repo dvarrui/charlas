@@ -10,3 +10,78 @@ Por haber estudiado ingeniería informática no estamos obligados a lidiar con l
 [25/5/26 17:55] dvarrui: eComputing https://share.google/w3SxbUDoCbiEZHi9B
 [25/5/26 18:01] dvarrui: https://www.autobuseslaunion.com/A3700/wp-content/uploads/2025/06/Horarios-A-3720_VERANO.pdf
 
+pasar audio
+* Quién , qué y cómo
+
+# QUIEN
+
+1. Los alumnos:
+    - aprender vs titular
+2. El sistema (inspectores)
+    - cumplimiento de la norma
+3. Los profesores
+    - cumplir la ley
+    - enseñar el curriculum
+    - evaluar
+    - feeback
+4. la IA
+
+
+# QUE
+
+## Objetivos
+
+* Dilema del profes: hacer de profesor legal y/o ser profesor del camino correcto?
+    - Cumplir la ley: reducir el queme, no estar contento con el resultado de aprendizaje
+    - Cumplir la ley y extra necesario: contento con el resultado para alumno, pérdida de salud personal
+    - "cumplir" la ley interpretando sus "huecos": aparente cumplimiento, contento resultado, reducir queme.
+
+* Qué: qué queremos?
+- Enseñar habilidades al alumno para la profesión
+- Enseñar = transmitir, feedback
+- Enseñar = transmitir, prueba/pregunta, feedback, guiar, prueba/pregunta, feedback, medir
+- Feedback sin nota o con nota (Evaluar)
+
+- Diferencia entre producto y proceso:
+    - Ejemplo resolver una ecuación: enunciado -> proceso -> solución final
+    - Evaluar/medir solución: fácil y rápido para medir. No hay feedback del proceso sólo del producto
+    - Evaluar/medir el proceso: fácil para feedback. Complicado y más costoso de medir.
+    - Problema: falta de tiempo, ratio alta o exceso de contenidos
+
+## Problemas
+
+* Problema: falta de tiempo, exceso de ratios y/o contenidos...
+* Aumento de un problema existente al aparecer la IA.
+* Antes de IA, evaluar/medir el producto final se escapaba un % mínimo
+* Después de IA el % que copia/saca provecho/no es entrega original es muy alto
+* No sirve evaluar la solución de los trabajos para casa ni con internet
+* Debemos ir hacia sistemas para evluar el proceso
+
+## COMO
+
+````
+¿Podemos cumplir nuestros objetivos?
+¿Eludir los problemas?
+¿y no morir en el intento?
+```
+
+Ideas
+
+* Lo que se manda para casa o con acceso a Internet, es útil pero NO se evalua. No tiene seguridad de la fuente.
+* Evaluar/medir en un entorno aislado SANDBOX
+    - se busca medir al alumno sin ayuda
+* Papel de toda la vida
+* UNIV
+    * encargar un trabajo que evoluciona en varios días
+    * lo entregan
+    * no se evalua pero se puede dar feedback a las dudas del alumno. el alumno debe preguntar, como parte del procesode aprender
+    * Se hace prueba de medir en sandbox, se pide cambios al proyecto entregado
+
+1. Sistemas operativos 
+2. programación 
+3. páginas web
+4. base de datos 
+
+* Si se quiere medir/evaluar al alumno qué tal usa la IA...
+    - eso no está en currículum de forma explícita
+    - Requiere acompañamiento individual -> no hay tiempo con las ratios altas
