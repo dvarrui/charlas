@@ -9,13 +9,13 @@
 
 Ejemplo 1:
 
-```
+```ruby
 # Estilo Ruby
 # Iterar usando bloques con métodos POO
 10.times { |i| puts i }
 ```
 
-```
+```ruby
 # Modo multilínea
 10.times do |i|
   puts i
@@ -31,7 +31,7 @@ end
 
 Ejemplo 2:
 
-```
+```ruby
 # Iterar usando bloques con métodos POO
 (0..9).each { |i| puts i }
 ```
@@ -50,7 +50,7 @@ El uso de los bloques permite aplicar el paradigma funcional (al menos en parte)
 
 Ejemplo 1:
 
-```
+```ruby
 # Iterar usando bloques con métodos POO
 a = [3, 14, 27]
 a.each do |i|
@@ -64,7 +64,7 @@ end
 
 > El iterador por todas partes...
 
-```
+```ruby
 # Iterar usando bloques con métodos POO
 [3, 14, 27].each { |i| puts i }
 ```

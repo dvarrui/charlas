@@ -10,7 +10,8 @@
 # Variables locales
 
 ## Integer y Float
-```
+
+```ruby
 age   = 42            # Integer
 price = 9.99          # Float
 42.to_s               # "42"
@@ -22,7 +23,7 @@ price = 9.99          # Float
 
 String es un tipo de datos... pero es una clase. Y todos los Strings son objetos, con sus propios métodos ("TODO es un objeto en Ruby").
 
-```
+```ruby
 name = "David"        # String
 name.upcase           # DAVID
 name + "ubi"          # Davidubi
@@ -41,7 +42,7 @@ puts "My name is #{name}. I'm #{age} years old."
 
 Los símbolos son como Strings inmutables, o como campos Enum de C con valores constantes. Pero también son objetos.
 
-```
+```ruby
 a = "hola"    #=> "hola"
 b = "hola"    #=> "hola"
 b.class       #=> String
@@ -61,7 +62,7 @@ c.object_id == d.object_id  #=> true
 
 ## Array
 
-```
+```ruby
 jedis = [ 'obiwan', 'yoda', 'quigon'] # Array
 jedis.size                            # 3
 jedis[1]                              # yoda
@@ -77,7 +78,7 @@ numbers << 70      # [16, 11, 70]
 
 ## Hash
 
-```
+```ruby
 me    = { name: 'david', age: 42 }       # Hash
 me    = { :name => 'david', :age => 42 } # Hash
 ```
@@ -95,7 +96,7 @@ me    = { :name => 'david', :age => 42 } # Hash
 
 ## Rational
 
-```
+```bash
 irb(main):001:0> a = Rational(1,3)
 => (1/3)
 irb(main):002:0> b = Rational(3,6)

@@ -9,7 +9,7 @@
 
 Interador de un array:
 
-```
+```ruby
 jedis = [ 'obiwan', 'yoda', 'quigon']
 
 jedis.each do |name|
@@ -18,6 +18,7 @@ end
 ```
 
 Salida:
+
 ```
 obiwan
 yoda
@@ -28,7 +29,7 @@ quigon
 
 Iterador de un Hash:
 
-```
+```ruby
 me = { :name => 'david', :age => 42 }
 
 me.each do |key,value|

@@ -23,6 +23,7 @@ eso, ¡no me gusta tanto! ;-)
 ```
 Me encantaría haberlo creado yo. ;-)
 ```
+
 * ¿Por qué los bloques (trozos de código) son objetos?
 
 ```

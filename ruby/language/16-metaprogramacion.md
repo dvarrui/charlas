@@ -20,7 +20,7 @@ La metaprogramación consiste en escribir programas que escriben o manipulan otr
 
 Un ejemplo sencillo de un metaprograma sería este script de Bash:
 
-```
+```ruby
 #!/bin/bash
 # metaprogram
 echo '#!/bin/bash' >program
@@ -32,7 +32,7 @@ chmod +x program
 
 ---
 
-# Reflexión
+# Reflexividad
 
 ```
 $ irb
@@ -52,7 +52,8 @@ irb(main):003:0> a.methods
 ## METAGROGRAMACIÓN con mayúsculas
 
 Ejemplo 1:
-```
+
+```ruby
 #!/usr/bin/env ruby
 
 class Person
@@ -72,6 +73,7 @@ puts '='*60
 ```
 
 Salida1:
+
 ```
 ============================================================
 Object             : #<Person:0x000055a3351d8070>
@@ -84,7 +86,8 @@ Object#name        : undefined method 'name'
 ---
 
 Ejemplo2:
-```
+
+```ruby
 #!/usr/bin/env ruby
 
 class Person
@@ -123,7 +126,8 @@ Object#name        : Qui-gon Jinn
 ---
 
 Ejemplo3:
-```
+
+```ruby
 #!/usr/bin/env ruby
 
 class Person
@@ -145,6 +149,7 @@ puts '='*60
 ```
 
 Salida3:
+
 ```
 ============================================================
 Object             : #<Person:0x0000563e5acb9370>

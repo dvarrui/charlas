@@ -1,12 +1,11 @@
 
 # I Love Ruby
 
-```
+```ruby
 me = {
   :name    => “David Vargas Ruiz”,
-  :twitter => @dvarrui,
   :github  => dvarrui,
-  :email   => dvarrui@protonmail.com
+  :email   => dvarrui@proton.me
 }
 ```
 

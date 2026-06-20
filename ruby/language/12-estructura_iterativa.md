@@ -9,7 +9,7 @@
 
 Ejemplo 1:
 
-```
+```ruby
 # Bucle clásico
 i = 0
 while (i<10)
@@ -24,7 +24,7 @@ end
 
 Ejemplo 2:
 
-```
+```ruby
 # Iterador con rangos
 for i in 0..9
   puts i

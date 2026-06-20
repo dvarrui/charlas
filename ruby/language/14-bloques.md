@@ -12,7 +12,7 @@ Enlace de interés:
 
 ¿Qué son los bloques? ... son objetos y además "trozos" de código.
 
-```
+```ruby
 #!/usr/bin/ruby
 
 def test(&block)
@@ -26,7 +26,7 @@ test { puts "Hello World!"}
 
 ## Mostrar 2 veces "I love Ruby!"
 
-```
+```ruby
 class MyIterator
   def initialize(times)
     @times = times
@@ -49,7 +49,7 @@ i.each(p)
 
 ---
 
-```
+```ruby
 class MyIterator
   def initialize(times)
     @times = times
@@ -71,7 +71,7 @@ i.each { puts "I love Ruby!"  }
 
 ---
 
-```
+```ruby
 class MyIterator
   def initialize(times)
     @times = times
@@ -95,7 +95,7 @@ i.each { puts "I love Ruby!"  }
 
 # Conclusión
 
-```
+```ruby
 3.times { puts "I love Ruby!" }
 ```
 

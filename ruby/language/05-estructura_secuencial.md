@@ -10,7 +10,7 @@
 
 Ejemplo 1
 
-```
+```ruby
 # Sumar enteros
 a = 3
 b = 4
@@ -23,7 +23,7 @@ puts a + b
 
 Ejemplo 2
 
-```
+```ruby
 # Unir Strings
 a = “Hello”
 b = “World!”
@@ -38,7 +38,7 @@ puts a + b
 
 Ejemplo 3
 
-```
+```ruby
 # Sumar enteros con Strings
 a = “1”
 b = 0

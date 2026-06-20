@@ -35,7 +35,7 @@
 
 Ejemplo 1:
 
-```
+```ruby
 class Persona
 
   def initialize(name)
