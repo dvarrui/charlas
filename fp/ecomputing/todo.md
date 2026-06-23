@@ -95,9 +95,27 @@ Ideas
     - eso no está en currículum de forma explícita
     - Requiere acompañamiento individual -> no hay tiempo con las ratios altas
 
+# ANEXO: Enlaces de interés
+
+
 https://youtu.be/KwbUPqPlc3E?is=ZorvpjgXL4vXwIyf
 
 YouTube (https://youtu.be/KwbUPqPlc3E?is=ZorvpjgXL4vXwIyf)
 La Crisis del Software
 ¿Has oído hablar de la crisis del software? La crisis del software fue señalada por Edsger Dijkstra en la década de 1960, pero ¿realmente acabó? En este vídeo realizamos un seguimiento a lo
+
+https://www.meneame.net/story/ya-no-redactar-sin-ayuda-ia
+"Ya no sé redactar sin la ayuda de la IA"
+
+www.meneame.net (https://www.meneame.net/story/ya-no-redactar-sin-ayuda-ia)
+"Ya no sé redactar sin la ayuda de la IA"
+Hola, perdonad, me está costando escribir esta carta, pues me he propuesto no usar la IA. Qué raro se me hace pensar, tener que escribir, se me está olvidando ya. Me hace grac
+
+Defeating Nondeterminism in LLM Inference - Thinking Machines Lab
+https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
+
+Thinking Machines Lab (https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
+Defeating Nondeterminism in LLM Inference
+Reproducibility is a bedrock of scientific progress. However, it’s remarkably difficult to get reproducible results out of large language models.
+
 
