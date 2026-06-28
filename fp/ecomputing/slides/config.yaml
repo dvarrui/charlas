@@ -1,0 +1,11 @@
+:game:
+  :bye: "Morpheus: 'Follow me.'"  
+:bg:
+  :scene: Matrix
+  :chars: "!#$%&\\\/()*+,-.01:;<=>?@[]^_oO{}|ª·¿•xX "
+:fg:
+  :scene: Slides
+  :files: "slides/*.txt"
+:ui:
+  :scene: UI
+  :header: "eComputing 2026"
