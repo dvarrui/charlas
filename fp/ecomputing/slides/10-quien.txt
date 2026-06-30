@@ -1,14 +1,6 @@
+¿QUIEN?
 
-QUIEN
-
-1. Los alumnos:
-    - aprender vs titular
-2. El sistema (inspectores)
-    - cumplimiento de la norma
+1. Alumnos
+2. El sistema
 3. Las empresas
-    - Personal que les resuelva
 4. Los profesores
-    - cumplir la ley
-    - enseñar el curriculum
-    - evaluar
-    - feeback

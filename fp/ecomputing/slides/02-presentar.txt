@@ -1,5 +1,6 @@
 David Vargas Ruiz
 
-- Profesor FP Sistemas y aplicaciones informáticos
+- Ingeniero Informático
+- FP Sistemas y aplicaciones informáticos
 - IES Puerto de la Cruz
 - Ruby, OpenSUSE, Software LIbre y STARWARS
