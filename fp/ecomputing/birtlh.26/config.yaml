@@ -5,7 +5,7 @@
   :chars: "!#$%&\\\/()*+,-.01:;<=>?@[]^_oO{}|ª·¿•xX "
 :fg:
   :scene: Slides
-  :files: "slides/*.txt"
+  :files: "birtlh.26/*.txt"
 :ui:
   :scene: UI
   :header: "eComputing 2026"
