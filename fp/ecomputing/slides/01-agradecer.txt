@@ -1,8 +1,7 @@
----------------                              
-AGRADECIMIENTOS
----------------
+----------- AGRADECIMIENTOS -----------
 
 - eComputing
 - BirtLH
+- Isard (https://www.isardvdi.com/es/)
 - Profesores FP
 
