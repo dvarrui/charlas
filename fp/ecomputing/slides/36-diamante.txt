@@ -1,3 +1,5 @@
+--------------- diamante ------------------
 
--------- diamante --------
-
+* Presentaciones en el terminal
+* REPO: https://github.com/dvarrui/diamante
+* GEM: https://rubygems.org/gems/diamante
