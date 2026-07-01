@@ -3,4 +3,5 @@ TEUTON
 ======
 
 * Test de infraestructura
-* https://github.com/teuton-software/teuton
+* REPO: https://github.com/teuton-software/teuton
+* GEM: https://rubygems.org/gems/teuton
