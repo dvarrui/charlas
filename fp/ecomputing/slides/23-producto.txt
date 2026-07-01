@@ -6,12 +6,3 @@ PRODUCTO:
 * Evaluar/medir solución:
     - fácil y rápido para medir. 
     - No hay feedback del proceso sólo del producto
-
-PROCESO:
-* Ejemplo resolver una ecuación: enunciado -> PROCESO
-* Evaluar/medir el proceso: 
-    - fácil para feedback. 
-    - Complicado y más costoso de medir.
-
-PROBLEMA:
-* falta de tiempo, ratio alta o exceso de contenidos
