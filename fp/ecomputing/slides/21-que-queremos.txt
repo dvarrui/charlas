@@ -1,6 +1,0 @@
-QUE: ¿qué queremos?
-
-1. Enseñar habilidades al alumno para la profesión
-2. Enseñar = transmitir, feedback
-3. Enseñar = transmitir, prueba/pregunta, feedback, guiar, prueba/pregunta, feedback, medir
-4. Feedback sin nota o con nota (Evaluar)
