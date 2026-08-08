@@ -1,5 +1,0 @@
-QUIEN: profesores
-
-- cumplir la ley (Criterios, resultados de aprendizaje)
-- enseñar el curriculum (Contenidos, habilidades, etc.)
-- plan -> enseñar -> evaluar -> feeback

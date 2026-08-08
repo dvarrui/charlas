@@ -1,4 +1,0 @@
-
-Charla: eComputing[26]
-
-REPO: https://github.com/dvarrui/charlas/tree/main/fp/ecomputing

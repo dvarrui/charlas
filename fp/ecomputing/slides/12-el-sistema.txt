@@ -1,4 +1,0 @@
-QUIEN: El sistema
-
-- El sistema (inspectores)
-- cumplimiento de la norma

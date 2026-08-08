@@ -1,7 +1,0 @@
-=====
-ASKER
-=====
-
-* Generador de preguntas
-* REPO: https://github.com/teuton-software/asker
-* GEM: https://rubygems.org/gems/asker-tool

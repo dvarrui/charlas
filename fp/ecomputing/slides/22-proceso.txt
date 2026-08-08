@@ -1,8 +1,0 @@
-QUE
-
-Proceso:
-
-1. transmitir
-2. prueba/pregunta
-3. feedback -> 1
-4. medir -> 1
