@@ -1,0 +1,8 @@
+Ideas
+
+* Lo que se manda para casa o con acceso a Internet, 
+  es útil pero NO se evalua. No tiene seguridad de la fuente.
+* se busca medir al alumno sin ayuda
+* Necesitamos Evaluar/medir en un entorno aislado SANDBOX
+
+¿Papel de toda la vida?

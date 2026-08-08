@@ -1,0 +1,8 @@
+
+---------- Producto vs proceso ----------
+
+PRODUCTO:
+* Ejemplo resolver una ecuación: enunciado -> proceso -> SOLUCION
+* Evaluar/medir solución:
+    - fácil y rápido para medir. 
+    - No hay feedback del proceso sólo del producto
