@@ -1,13 +1,13 @@
 CONFIGURATION
-+---------------+-------------------------------------------------------------------+
-| tt_title      | Teuton (3.0.0)                                                    |
-| tt_scriptname | v03.custom/start.rb                                               |
-| tt_configfile | v03.custom/config.yaml                                            |
-| tt_pwd        | /home/david/proy/repos/eventos.d/charlas/teuton/rubysur.2608/demo |
-| tt_uses       | nginx.rb                                                          |
-| tt_testname   | v03.custom                                                        |
-| tt_sequence   | false                                                             |
-+---------------+-------------------------------------------------------------------+
++---------------+-------------------------------------------------------+
+| tt_title      | Teuton (3.0.0)                                        |
+| tt_scriptname | v03.custom/start.rb                                   |
+| tt_configfile | v03.custom/config.yaml                                |
+| tt_pwd        | ...pos/eventos.d/charlas/teuton/rubysur.2608/examples |
+| tt_uses       | nginx.rb                                              |
+| tt_testname   | v03.custom                                            |
+| tt_sequence   | false                                                 |
++---------------+-------------------------------------------------------+
 
 CASES
 +------+----------+-------+-------+
@@ -19,8 +19,8 @@ CASES
 RESULTS
 +--------------+---------------------------+
 | unique_fault | 0                         |
-| start_time   | 2026-08-19 21:52:36 +0100 |
-| finish_time  | 2026-08-19 21:52:36 +0100 |
-| duration     | 0.631174545               |
+| start_time   | 2026-08-19 23:50:03 +0100 |
+| finish_time  | 2026-08-19 23:50:04 +0100 |
+| duration     | 0.635987262               |
 +--------------+---------------------------+
 

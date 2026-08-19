@@ -4,5 +4,5 @@ use "nginx"
 
 start do
   show
-  export format: :html
+  export
 end
