@@ -1,0 +1,53 @@
+CONFIGURATION
++--------------------+-----------------+
+| tt_members         | Alumno 2        |
+| tt_sequence        | false           |
+| tt_skip            | false           |
+| tt_testname        | v03.custom      |
+| webserver_ip       | 192.168.122.108 |
+| webserver_password | secret2         |
+| webserver_username | alumno2         |
++--------------------+-----------------+
+
+
+GROUPS
+- Comprobar el servicio web Nginx
+    01 (1.0/1.0)
+        Description : Comprobar el estado del servicio Nginx
+        Command     : systemctl status nginx
+        Output      : (17 lines)
+        Duration    : 0.567 (ssh)
+        Alterations : find(Active: active (running)) & count
+        Expected    : Greater than 0
+        Result      : 1
+    02 (1.0/1.0)
+        Description : Comprobar que index.html contiene el texto 'Hola NOMBREALUMNO!'
+        Command     : cat /var/www/html/index.html
+        Output      : <p>Hola Alumno 2!</p>
+        Duration    : 0.055 (ssh)
+        Alterations : find(Hola Alumno 2!) & count
+        Expected    : Greater than 0
+        Result      : 1
+- Comprobar Nginx desde el exterior
+    03 (1.0/1.0)
+        Description : Comprobar que index.html contiene el texto 'Hola NOMBREALUMNO!'
+        Command     : curl http://192.168.122.108
+        Output      : (4 lines)
+        Duration    : 0.008 (local)
+        Alterations : find(Hola Alumno 2!) & count
+        Expected    : Greater than 0
+        Result      : 1
+
+RESULTS
++--------------+---------------------------+
+| unique_fault | 0                         |
+| case_id      | 02                        |
+| start_time   | 2026-08-19 21:52:36 +0100 |
+| finish_time  | 2026-08-19 21:52:36 +0100 |
+| duration     | 0.63003694                |
+| max_weight   | 3.0                       |
+| good_weight  | 3.0                       |
+| fail_weight  | 0                         |
+| fail_counter | 0                         |
+| grade        | 100                       |
++--------------+---------------------------+

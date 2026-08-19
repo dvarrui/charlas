@@ -1,0 +1,53 @@
+CONFIGURATION
++--------------------+-----------------+
+| tt_members         | Alumno 1        |
+| tt_sequence        | false           |
+| tt_skip            | false           |
+| tt_testname        | v03.custom      |
+| webserver_ip       | 192.168.122.254 |
+| webserver_password | secret1         |
+| webserver_username | alumno1         |
++--------------------+-----------------+
+
+
+GROUPS
+- Comprobar el servicio web Nginx
+    01 (0.0/1.0)
+        Description : Comprobar el estado del servicio Nginx
+        Command     : systemctl status nginx
+        Output      : Unit nginx.service could not be found.
+        Duration    : 0.539 (ssh)
+        Alterations : find(Active: active (running)) & count
+        Expected    : Greater than 0
+        Result      : 0
+    02 (0.0/1.0)
+        Description : Comprobar que index.html contiene el texto 'Hola NOMBREALUMNO!'
+        Command     : cat /var/www/html/index.html
+        Output      : cat: /var/www/html/index.html: No existe el fichero o el directorio
+        Duration    : 0.05 (ssh)
+        Alterations : find(Hola Alumno 1!) & count
+        Expected    : Greater than 0
+        Result      : 0
+- Comprobar Nginx desde el exterior
+    03 (0.0/1.0)
+        Description : Comprobar que index.html contiene el texto 'Hola NOMBREALUMNO!'
+        Command     : curl http://192.168.122.254
+        Output      : curl: (7) Failed to connect to 192.168.122.254:80 after 0 ms: Could not connect to server
+        Duration    : 0.007 (local)
+        Alterations : find(Hola Alumno 1!) & count
+        Expected    : Greater than 0
+        Result      : 0
+
+RESULTS
++--------------+---------------------------+
+| unique_fault | 0                         |
+| case_id      | 01                        |
+| start_time   | 2026-08-19 21:52:36 +0100 |
+| finish_time  | 2026-08-19 21:52:36 +0100 |
+| duration     | 0.596146854               |
+| max_weight   | 3.0                       |
+| good_weight  | 0                         |
+| fail_weight  | 3.0                       |
+| fail_counter | 3                         |
+| grade        | 0                         |
++--------------+---------------------------+
